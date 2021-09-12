@@ -11,9 +11,8 @@ public class GameManager : MonoBehaviour
     public GameObject redSet;
 
     private float vectorYPos=0;
-
-    private int counter=0;
-    public static int helixCounter = 5;
+    
+    public static int helixCounter = 35;
     GameObject[] set=new GameObject[helixCounter];
     public bool inGame = false;
     public GameObject menuCanvas;
